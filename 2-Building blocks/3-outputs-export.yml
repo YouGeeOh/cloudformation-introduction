@@ -45,7 +45,7 @@ Outputs:
     Export:
       Name: WebSeverSecurityGroupId  
   VpcId:
-    Description: VPC id to which the Security group belongs too.
+    Description: VPC ID where the Security Group is attached
     Value: !GetAtt 
       - InstanceSecurityGroup
       - VpcId
